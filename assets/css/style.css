@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header: #3b5998;
+    --lighttext: #8b9dc3;
+    --color3: #dfe3ee;
+    --color4: #f7f7f7;
+    --color5: #ffffff;
+}
+
+/* body{
+    position: relative;
+} */
+header {
+    width: 100%;
+    background-color: var(--header);
+    position: relative;
+    height: 10vh;
+    padding: 20px;
+    color: var(--color3);
+
+
+
+}
+
+@font-face {
+    font-family: "klavika-bold";
+    src: url(/assets/font/klavika-bold.otf);
+}
+
+.name-icon {
+    font-family: "klavika-bold";
+    color: var(--color4);
+
+
+}
+
+/* form{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+    width: 800px;
+    
+} */
+.start {
+    position: absolute;
+    top: 0px;
+    /* right: 30px; */
+    left: 800px;
+    width: 800px;
+
+}
+
+.name-class {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 800px;
+
+}
+
+.pass-class {
+    position: absolute;
+    top: 5px;
+    left: 200px;
+
+}
+
+.button {
+    background-color: var(--header);
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    color: var(--color3);
+    box-shadow: 0px 0px 30px black;
+}
+
+.forget {
+    position: absolute;
+    top: 45px;
+    left: 200px;
+}
+
+.textp {
+    color: var(--header);
+}
+
+.fst {
+    position: absolute;
+    top: 100px;
+    font-family: klavika-bold;
+
+}
+
+.form-section {
+    position: absolute;
+    /*  */
+    left: 800px;
+    padding: 20px;
+}
+.fst-img{
+    height: 300px;
+    position: absolute;
+    top: 60px;
+}
+
+.form-heade {
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    position: relative;
+}
+
+.txt {
+    position: relative;
+    top: opx;
+    /*  */
+
+}
+
+.input-group {
+    position: relative;
+    top: 20px;
+}
+.fst-name{
+    height: 40px;
+}
+.lst-name{
+    height: 40px;
+}
+
+#fst-email {
+    position: relative;
+    top: 30px;
+    height: 40px;
+}
+
+#sec-email {
+    position: relative;
+    top: 40px;
+    height: 40px;
+
+
+}
+
+.pass-form {
+    position: relative;
+    top: 50px;
+    height: 40px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.dob {
+    position: relative;
+    top: 60px;
+
+}
+
+.date-section {
+    position: relative;
+    top: 70px;
+
+}
+
+.gender {
+    position: relative;
+    top: 80px;
+    text-transform: capitalize;
+
+}
+
+.lst-p {
+    position: relative;
+    top: 90px;
+}
+
+.create-btn {
+    position: relative;
+    top: 130px;
+    background-color: rgb(62, 169, 62);
+    height: 30px;
+    width: 200px;
+}
+
+#lstp {
+    position: relative;
+    top: 150px;
+    color: gray;
+}
+.trm{
+    color: gray;
+}
